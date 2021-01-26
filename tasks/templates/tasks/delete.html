@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Task</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+        body {
+            text-align: center;
+            margin-top: 400px;
+        }
+
+        p {
+            font-size: 30px;
+            margin: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: red;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 20px;
+            width: 100px;
+        }
+
+        input {
+            margin: 20px;
+            padding: 15px;
+            font-size: 18px;
+            background-color: #38b000;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+
+        input:hover {
+            background-color: #008000;
+            cursor: pointer;
+
+        }
+
+        a:hover {
+            background-color: #c71f37;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: #bfd200;">
+    <h1 style="margin-bottom: 40px;"><i class="fa fa-leaf fa-1x"></i> Delete Task</h1>
+    <p>Are you sure you want to delete this note ?</p>
+    <a href="{% url 'list' %}">Cancel</a>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="Confirm">
+    </form>
+</body>
+
+</html>
