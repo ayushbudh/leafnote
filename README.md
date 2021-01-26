@@ -7,4 +7,4 @@
 </ol>
 
 <h2>Demo</h2>
-<a href = "https://leafnote.ayush7272.repl.co/">View Live Demo</a>
+<a href = "https://leafnote.ayush7272.repl.co/" target ="_blank" >View Live Demo</a>
