@@ -1,4 +1,6 @@
-<h1>Leaf Node</h1>
+<h1>Leaf Note</h1>
+<h2>What it does?<h2>
+    <p>A simple to-do list web app that helps user to make a to-do list easier.</p>
 <h2>Instructions</h2>
 <ol>
     <li> Download code using the above download button or use command <b>" git clone https://github.com/ayushbudh/leafnote "</b> to make a clone of the repository on your local machine</li>
