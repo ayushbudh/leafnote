@@ -2,8 +2,6 @@
 ## What it does?
 A simple to-do list web app that helps user to make a to-do list easier.
 
----
-
 <img width="1440" alt="Screen Shot 2021-04-24 at 2 54 40 PM" src="https://user-images.githubusercontent.com/56787472/115971249-0ad7ba00-a50d-11eb-8fee-71ed836876dc.png">
 
 ## Instructions
